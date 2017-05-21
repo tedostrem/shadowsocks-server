@@ -9,4 +9,4 @@ docker run -d \
 		-m ${SS_ENCRYPTION_METHOD} \
 		-p 1984
 ```
-Also check out the compatible [docker-shadowsocks-client](https://github.com/tedostrem/docker-shadowsocks-client) which also exposes a http proxy.
+Also check out the compatible [shadowsocks-client](https://github.com/tedostrem/shadowsocks-client) which also exposes a http proxy.
