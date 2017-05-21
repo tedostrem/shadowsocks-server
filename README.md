@@ -1,6 +1,6 @@
 # shadowsocks-server
-https://img.shields.io/docker/automated/tedostrem/shadowsocks-server.svg
-https://img.shields.io/docker/build/tedostrem/shadowsocks-server.svg
+![](https://img.shields.io/docker/automated/tedostrem/shadowsocks-server.svg)
+![](https://img.shields.io/docker/build/tedostrem/shadowsocks-server.svg)
 
 Dockerized Golang version of shadowsocks-server with chacha20/salsa20 support.
 ```
