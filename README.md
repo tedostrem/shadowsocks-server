@@ -1,4 +1,4 @@
-# docker-shadowsocks-server
+# shadowsocks-server
 Dockerized Golang version of shadowsocks-server with chacha20/salsa20 support.
 ```
 docker run -d \
