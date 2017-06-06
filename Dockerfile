@@ -12,4 +12,6 @@ RUN wget https://storage.googleapis.com/golang/${GOVERSION}.linux-amd64.tar.gz &
     rm ${GOVERSION}.linux-amd64.tar.gz
 ENV PATH=${PATH}:${GOPATH}/bin:${GOPATH}/go/bin
 RUN go get github.com/shadowsocks/shadowsocks-go/cmd/shadowsocks-server
-ENTRYPOINT ["/usr/local/bin/shadowsocks-server"]
+ADD entrypoint.sh /root
+EXPOSE 1984
+ENTRYPOINT ["/root/entrypoint.sh"]
